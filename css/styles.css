@@ -91,14 +91,48 @@ body {
 
 .sign-up-form .form-row-one {
   display: flex;
+  gap: 100px;
+  padding-bottom: 10px;
+}
+
+label {
+  font-size: 12px;
+}
+
+input {
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+input:focus {
+  outline-style: none;
+  border: 1px solid blue;
+  box-shadow: 1px 1px black;
+}
+
+.sign-up-form .form-row-three div input:invalid {
+  border: 1px solid red;
 }
 
 .sign-up-form .form-row-two {
   display: flex;
+  gap: 100px;
+  padding-bottom: 10px;
 }
 
 .sign-up-form .form-row-three {
   display: flex;
+  gap: 100px;
+}
+
+.create-account-button {
+  padding-top: 50px;
+}
+
+.create-account-button .message {
+  margin-top: 20px;
+  font-size: 15px;
 }
 
 .create-account-button button {
@@ -116,4 +150,5 @@ body {
 .create-account-button a {
   text-decoration: none;
   color: #596d48;
+  font-weight: bold;
 }

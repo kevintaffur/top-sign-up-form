@@ -35,37 +35,38 @@
           <div class="form-row-one">
             <div>
               <label for="firstname">FIRST NAME</label><br>
-              <input type="text" name="firstname" id="firstname">
+              <input type="text" name="firstname" id="firstname" required>
             </div>
             <div>
               <label for="lastname">LAST NAME</label><br>
-              <input type="text" name="lastname" id="lastname">
+              <input type="text" name="lastname" id="lastname" required>
             </div>
           </div>
           <div class="form-row-two">
             <div>
               <label for="email">EMAIL</label><br>
-              <input type="email" name="email" id="email">
+              <input type="email" name="email" id="email" required>
             </div>
             <div>
               <label for="phonenumber">PHONE NUMBER</label><br>
-              <input type="number" name="phonenumber" id="phonenumber">
+              <input type="number" name="phonenumber" id="phonenumber" required>
             </div>
           </div>
           <div class="form-row-three">
             <div>
               <label for="password">PASSWORD</label><br>
-              <input type="password" name="password" id="password">
+              <input type="password" name="password" id="password" required>
             </div>
             <div>
               <label for="confirmpassword">CONFIRM PASSWORD</label><br>
-              <input type="password" name="confirmpassword" id="confirmpassword">
+              <input type="password" name="confirmpassword" id="confirmpassword" required>
             </div>
           </div>
-          <hr>
           <div class="create-account-button">
-            <button>Create Account</button>
-            Already have an account? <a href="#">Log in</a>
+            <button>Create Account</button><br>
+            <div class="message">
+              Already have an account? <a href="#">Log in</a>
+            </div>
           </div>
         </form>
       </div>
