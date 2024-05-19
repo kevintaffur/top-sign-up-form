@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 auto;
+}
+
+.left .left-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+.left .left-top .logo-background {
+  display: flex;
+  gap: 10px;
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 100px;
+  color: white;
+  font-size: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.left .left-top .logo-background .logo {
+  width: 50px;
+  display: inline;
+}
+
+.left .left-bottom {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: end;
+}
+
+.left .left-bottom .image-credits {
+  color: white;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+.image-credits a {
+  color: white;
+}
+
+.image-credits a:visited {
+  text-decoration: inherit;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  justify-content: space-between;
+  background: white;
+  padding: 100px;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-form .form-row-one {
+  display: flex;
+}
+
+.sign-up-form .form-row-two {
+  display: flex;
+}
+
+.sign-up-form .form-row-three {
+  display: flex;
+}
